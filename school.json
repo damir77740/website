@@ -1,0 +1,32 @@
+[
+	{
+		"id_school": 1,
+		"name_school": "Иски",
+		"ball_school": 0,
+		"photo_school": "Лох"
+	},
+	{
+		"id_school": 2,
+		"name_school": "Мбоу Сош №1",
+		"ball_school": 88,
+		"photo_school": "https://im0-tub-ru.yandex.net/i?id=a72d31a1350e6cc1bb35cb80dbc31696&n=13"
+	},
+	{
+		"id_school": 3,
+		"name_school": "kek",
+		"ball_school": 247,
+		"photo_school": "kek"
+	},
+	{
+		"id_school": 4,
+		"name_school": "МБОУС СОШ №2",
+		"ball_school": 6,
+		"photo_school": "https://im0-tub-ru.yandex.net/i?id=b115f6bf4f921f150d0edb61bf3d883b&n=13"
+	},
+	{
+		"id_school": 5,
+		"name_school": "а. Нечерезий",
+		"ball_school": 51,
+		"photo_school": "https://im0-tub-ru.yandex.net/i?id=d542c93eda88fa457080ccea0fc374b8&n=13"
+	}
+]

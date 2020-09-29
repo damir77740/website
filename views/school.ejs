@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Школы</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <% if(j == 000) {%>
+
+  <div class="card" style="width: 18rem;">
+    <img src="<%= photo_school %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Школа:<%= name_school %></h5>
+      <p class="card-text">Балы:<%= ball_school %></p>
+      <form action="/like_school" method="post">
+        <input href="#" type="submit" class="btn btn-primary"></input>
+      </form>
+    </div>
+  </div>
+
+  <%} %>
+
+  <% if(j == 001) {%>
+
+    <body class="p-3 mb-2 bg-dark text-white">
+
+      <center>
+
+      <h1>К сожалению на сервере возникли временные неполадки</h1>
+      <br>
+
+      <img src="https://pbs.twimg.com/media/DoPYnf_X0AYaszk.jpg">
+
+    </center>
+
+    </body>
+
+    <%} %>
+
+    <% if(j == 002) {%>
+
+      <body class="p-3 mb-2 bg-dark text-white">
+
+        <center>
+
+        <h1>К сожалению вы слишком тупой чтобы понять что-то.</h1>
+        <br>
+  
+        <img src="https://i.ytimg.com/vi/OWLgl7j8zCQ/maxresdefault.jpg">
+
+      </center>
+  
+      </body>
+
+      <%} %>
+
+</body>
+
+</html>
