@@ -8,22 +8,34 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
-<body>
+<body background="https://im0-tub-ru.yandex.net/i?id=48cbedec73584efa34d4ccd4044e5f78&n=13">
 
   <% if(j == 000) {%>
 
-  <div class="card" style="width: 18rem;">
-    <img src="<%= photo_school %>" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Школа:<%= name_school %></h5>
-      <p class="card-text">Балы:<%= ball_school %></p>
-      <form action="/like_school" method="post">
-        <input href="#" type="submit" class="btn btn-primary"></input>
-      </form>
-    </div>
-  </div>
+    <% for (let data in a) { %>
+      <form action="/like" method="post">
+        <center>
+      <br>
+        <div class="row">
+        </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="<%= a[data].photo_school %>" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Наименование: <%= a[data].name_school %></h5>
+                <h5 class="card-text text-primary">Баллы: <%= a[data].ball_school %></h5>
+                <p class="card-text"><small class="text-muted"> ID: <%= a[data].id_school %></center></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+          </form>
+      <% } %>
 
-  <%} %>
+      <% } %>
 
   <% if(j == 001) {%>
 
@@ -58,6 +70,7 @@
       </body>
 
       <%} %>
+
 
 </body>
 

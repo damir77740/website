@@ -1,32 +1,74 @@
 [
 	{
 		"id_school": 1,
-		"name_school": "Иски",
+		"name_school": "«Средняя общеобразовательная школа №1» а. Понежукая",
 		"ball_school": 0,
-		"photo_school": "Лох"
+		"photo_school": "http://png-school1.ucoz.ru/logo_school_01.png"
 	},
 	{
 		"id_school": 2,
-		"name_school": "Мбоу Сош №1",
-		"ball_school": 88,
-		"photo_school": "https://im0-tub-ru.yandex.net/i?id=a72d31a1350e6cc1bb35cb80dbc31696&n=13"
+		"name_school": "«Средняя общеобразовательная школа №2» а. Ассоколай",
+		"ball_school": 0,
+		"photo_school": "https://im0-tub-ru.yandex.net/i?id=4a133782d28726650d6975ab78f1ad35-sr&n=13"
 	},
 	{
 		"id_school": 3,
-		"name_school": "kek",
-		"ball_school": 247,
-		"photo_school": "kek"
+		"name_school": "«Средняя общеобразовательная школа № 3»  а. Пчегатлукай",
+		"ball_school": 0,
+		"photo_school": "http://sosh3.uoteuch.ru/images/shkola.jpg"
 	},
 	{
 		"id_school": 4,
-		"name_school": "МБОУС СОШ №2",
-		"ball_school": 6,
-		"photo_school": "https://im0-tub-ru.yandex.net/i?id=b115f6bf4f921f150d0edb61bf3d883b&n=13"
+		"name_school": "«Средняя общеобразовательная школа № 4» а. Нечерезий",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
 	},
 	{
 		"id_school": 5,
-		"name_school": "а. Нечерезий",
-		"ball_school": 51,
-		"photo_school": "https://im0-tub-ru.yandex.net/i?id=d542c93eda88fa457080ccea0fc374b8&n=13"
+		"name_school": "«Средняя общеобразовательная школа № 5» а. Кунчукохабль",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 6,
+		"name_school": "«Средняя общеобразовательная школа № 6» а. Габукай",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 7,
+		"name_school": "«Средняя общеобразовательная школа № 7» а. Джиджихабль",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 8,
+		"name_school": "«Средняя общеобразовательная школа № 8» а. Нешукай",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 9,
+		"name_school": "«Средняя общеобразовательная школа № 9» а. Вочепшия",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 10,
+		"name_school": "«Средняя общеобразовательная школа № 10» п. Тлюстенхабль",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 11,
+		"name_school": "«Средняя общеобразовательная школа № 11» х. Шевченко",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
+	},
+	{
+		"id_school": 12,
+		"name_school": "«Начальная общеобразовательная школа №15» Теучежского района Республики Адыгея",
+		"ball_school": 0,
+		"photo_school": "https://stomestrf.ru/img/covers/nophoto.jpg"
 	}
 ]

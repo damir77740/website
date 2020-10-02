@@ -39,59 +39,22 @@ app.post("/createSchool", urlencodedParser, function (request, response) {
       photo_school: request.body.school_photo,
     })
   }
-
-  let top = [];
-
-  school.map(x => {
-    top.push({ name: x.name_school, ball: x.ball_school, photo: x.photo_school, id: x.id_school });
-  });
-
-  top.sort((a, b) => {
-    return b.id - a.id;
-  });
-
-  let text = ``;
-  const find = () => {
-    let pos = 1000;
-    
-    for (let i = 0; i < top.length; i++) {
-      if (top[i].id === 1) return pos = i;
-    }
-
-    return pos;
-  }
-
-  for (let i = 0; i < 10; i++) {
-    if (!top[i]) return;
-    const user = top[i];
-
-    text += `${i === 9 ? `&#128287;` : `${i + 1}&#8419;`} @id${user.id} (${user.name}) — 👑${user.id}) | $${user.ball}
-    `;
-  }
-
-  return  console.log(`${text}`)
-
 });
 
 app.use("/school", function (request, response) {
 
-  user = school.find(t => t.id_school === school.length)
+  /* for (let data in school) { 
 
+    school[data].ball_school += 111
 
-  school.forEach(function (item) {
-
-    console.log(JSON.stringify(item, null, "\t"));
-
-    i = JSON.stringify(item)
-
-  })
+   } */
 
   response.render("school", {
-    xux: i,
-    j: 001,
-    name_school: user.name_school,
-    ball_school: user.ball_school,
-    photo_school: user.photo_school,
+    j: 000,
+    a: school,
+    //name_school: user.name_school,
+    //ball_school: user.ball_school,
+    //photo_school: user.photo_school,
   });
 
 });
